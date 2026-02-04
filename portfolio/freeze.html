@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Freeze Heist - Andrei Nedelcu</title>
+	<link rel="icon" href="../media/icon.png">
+	<link href="../css/main.css" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/c332175dbd.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="Freeze Heist is a stealth game about freezing time and stealing valuables."/>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<div id="title"><a href="../index"><h1 style="margin-bottom:0px">Andrei Nedelcu</h1><h2 style="margin:0px">Game Developer</h2></a></div>
+		</header>
+		<div id="content">
+			<h1><a href="https://darn.itch.io/freeze-heist" aria-label="itch.io"><i class="fab fa-itch-io"></i></a>Freeze Heist</h1>
+			<video controls loop poster="../media/freeze-banner.png">
+				<source src="../media/freeze-banner.mp4" type="video/mp4">
+				Video not supported.
+			</video>
+			<ul>
+				<li>Solo project, developed as part of my coursework</li>
+				<li>Developed in Unity</li>
+				<li>Tasked with building a game from a first person shooter skeleton project</li>
+				<li>Designed and programmed a stealth game with unique mechanics, going above and beyond the marking scheme</li>
+			</ul>
+			<p>Freeze Heist was developed as part of my coursework on Computer Science for Games. I opted to make a stealth game, with <strong>freezing time</strong> as the core mechanic. Your goal is to collect as much loot as possible without getting caught. You will be using your ability to freeze time to get past 3 different types of guards. Each collected item makes you slower, making the game more difficult as you progress. More valuable loot requires tripping an alarm, which causes more enemies to spawn, creating a risk vs. reward situation for the player.</p>
+			<p>Enemy behaviour was implemented using <strong>state machines</strong>. For instance, the patrolling enemy can go from its neutral patrol state, to an alert state once the player is in sight, followed by an aggro state if the player does not escape sight in time. The alert and aggro states are telegraphed to the player with '?' and '!' icond above the enemy's head. The enemy reverts back from the aggro state into the alert state into the neutral state if the player escapes.</p>
+			<img src="../media/freeze1.png" alt="Screenshot">
+			<img src="../media/freeze2.png" alt="Screenshot">
+			<img src="../media/freeze3.png" alt="Overview of map">
+		</div>
+	</div>
+</body>
+</html>

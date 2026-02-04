@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Clone Cleanup - Andrei Nedelcu</title>
+	<link rel="icon" href="../media/icon.png">
+	<link href="../css/main.css" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/c332175dbd.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="Clone Cleanup is a game about fighting clones of yourself and unlocking upgrades, but choose wisely: your clones have the same upgrades as you do. Developed for GMTK Jam 2019."/>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<div id="title"><a href="../index"><h1 style="margin-bottom:0px">Andrei Nedelcu</h1><h2 style="margin:0px">Game Developer</h2></a></div>
+		</header>
+		<div id="content">
+			<h1><a href="https://darn.itch.io/clone-cleanup" aria-label="itch.io"><i class="fab fa-itch-io"></i></a>Clone Cleanup</h1>
+			<video controls muted poster="../media/clonebanner.png">
+				<source src="../media/clonecleanup.mp4" type="video/mp4">
+				Video not supported.
+			</video>
+			<ul>
+				<li>Team project, developed as entry to <a href="https://itch.io/jam/gmtk-2019"><strong>Game Maker's Toolkit 2019 Game Jam</strong></a></li>
+				<li>I was responsible with programming and design, working alongside an artist</li>
+				<li>Developed in Unity</li>
+				<li>Designed and developed an unique concept to match the jam theme <strong>"only one"</strong></li>
+			</ul>
+			<p>Our take on the theme started from Mark's suggestion when he announced it, of having only one sprite. Expanding that concept into the mechanics led us to Clone Cleanup: enemies not only use the same sprite, but the exact same abilities as you. Before heading into one of several levels, the player is presented with a choice of all unlocked upgrades thus far, followed by fighting clones using the same upgrades that were equipped. Winning a level unlocks yet more upgrades to play around with. I'm proud of the unique concept we came up with, which creates a lot of design space and interesting choices for the player. You may not want to equip a powerful upgrade as it will be used against them, and intentionally equipping debuffs is a good option.</p>
+			<p>The concept posed a few technical challenges. Each upgrade has their script, with a different activation script for the player and enemies. The double jump, for instance, is triggered by input on the player end and may randomly happen in mid-air for the enemies. The AI is simple, but effective, with basic movement and random use of the equipped upgrades.</p>
+			<img src="../media/clone1.png" alt="Screenshot">
+			<img src="../media/clone2.png" alt="Screenshot">
+			<img src="../media/clone3.png" alt="Screenshot">
+		</div>
+	</div>
+</body>
+</html>

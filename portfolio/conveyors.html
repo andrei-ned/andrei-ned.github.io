@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>A Game of Conveyors - Andrei Nedelcu</title>
+	<link rel="icon" href="../media/icon.png">
+	<link href="../css/main.css" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/c332175dbd.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="A Game of Conveyors is a simple puzzle game prototype made by expanding Unreal\'s sidescroller template."/>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<div id="title"><a href="../index"><h1 style="margin-bottom:0px">Andrei Nedelcu</h1><h2 style="margin:0px">Game Developer</h2></a></div>
+		</header>
+		<div id="content">
+			<h1>A game of conveyors</h1>
+			<div class="vid">
+				<iframe width="100%" height="auto" src="https://youtube.com/embed/a4_-TUPTdw8" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<ul>
+				<li>Solo project, developed as part of my coursework</li>
+				<li>Developed in Unreal Engine</li>
+				<li>Modelled a 3d asset using 3ds Max</li>
+				<li>Tasked with building a sidescroller puzzle game</li>
+				<li>Programmed the mechanics using Unreal's blueprints</li>
+				<li>Designed a level with escalating difficulty, exploring the design space created by the simple conveyor belt mechanic.</li>
+			</ul>
+			<p>A game of conveyors was developed as part of my coursework on Computer Science for Games. The task was to create one 3d modelled asset using <strong>3ds Max</strong>, animate it, and import it into <strong>Unreal Engine</strong> to create a puzzle prototype.</p>
+			<p>For my asset, I modelled a conveyor belt. The asset is actually made of separate segments, allowing the middle segment to be tiled in order to have any length of conveyor belt. The animation is done by moving the belt slightly, then teleporting it back into the starting place, creating the illusion of continuous movement.</p>
+			<p>In Unreal, the conveyor is put together using a construction script, which allows me to change the length via editor. The puzzles are built around having crates be pushed around by the conveyors and around changing the movement direction of the conveyors with a button press.</p>
+			<img src="../media/conveyors-banner.png" alt="In-Game Screenshot">
+			<img src="../media/conveyors-model.png" style="max-width:810px" alt="Conveyor belt">
+			<img src="../media/conveyors-bp.png" style="max-width:1200px" alt="Unreal blueprint">
+		</div>
+	</div>
+</body>
+</html>

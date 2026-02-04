@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Hexrails - Andrei Nedelcu</title>
+	<link rel="icon" href="../media/icon.png">
+	<link href="../css/main.css" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/c332175dbd.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="Freeze Heist is a stealth game about freezing time and stealing valuables."/>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<div id="title"><a href="../index"><h1 style="margin-bottom:0px">Andrei Nedelcu</h1><h2 style="margin:0px">Game Developer</h2></a></div>
+		</header>
+		<div id="content">
+			<h1>Hexrails</h1>
+			<video controls loop>
+				<source src="../media/railvid.mp4" type="video/mp4">
+				Video not supported.
+			</video>
+			<ul>
+				<li>Developed as part of my coursework, alongside an artist</li>
+				<li>Developed in Unity</li>
+				<li>Designed and programmed a train management game</li>
+			</ul>
+			<p>Hexrails was developed as part of my coursework on Computer Science for Games. The task also involved project management using tools such as Trello and planning the design of the game in the form of a <strong>Game Design Document</strong>.</p>
+			<p>I decided to make a train management game, having enjoyed that kind of gameplay in games such as OpenTTD and Factorio. The game generates a random map and keeps adding trains with random schedules as you progress. You place down tracks and signals to get trains to their destinations. Your goal is to maintain an efficient train network and make sure no trains are late.</p>
+			<p>Developing Hexrails involved several programming challenges. The maps are procedurally generated using <strong>perlin noise</strong>. In order to randomly generate train schedules, the stations are connected in a graph that was generated using <strong>Delaunay triangulation</strong>. Train pathfinding is implemented using <strong>Dijkstra's algorhitm</strong>.</p>
+
+			<video muted autoplay loop class="centervideo">
+				<source src="../media/railbridge.mp4" type="video/mp4">
+				Video not supported.
+			</video>
+			<img src="../media/rail1.png" alt="Screenshot">
+			<img src="../media/rail2.png" alt="Screenshot">
+		</div>
+	</div>
+</body>
+</html>
